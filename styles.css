@@ -2,27 +2,28 @@
 	margin-bottom: 20px;
 }
 
+/******* Styles for Inventory Title Row *******/
 .prod-row {
 	background-color: darkgray;
 	border-bottom: 1px solid black;
 	padding: 3px 0 3px 10px; 
 }
 
+.prod-row div {
+	display: inline-block;
+	width: 200px;
+}
+
+
+/******* Styles for Inventory Row Alternating Colors *******/
 .prod-row-white {
 	background-color: white;
-	/*border: 1px solid black;*/
 	padding: 3px 0 3px 10px; 
 }
 
 .prod-row-gray {
 	background-color: lightgray;
-	/*border: 1px solid black;*/
 	padding: 3px 0 3px 10px; 
-}
-
-.prod-row div {
-	display: inline-block;
-	width: 200px;
 }
 
 .prod-row-white div {
